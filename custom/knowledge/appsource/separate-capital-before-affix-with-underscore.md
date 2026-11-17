@@ -30,7 +30,7 @@ lowercase, no underscore is needed and none should be added: `HelperSXE`,
 member that carries the affix, not just codeunits, using whichever affix the current project
 has registered in `AppSourceCop.json`.
 
-See sample: `separate-capital-before-affix-with-underscore.good.al`.
+See sample: [`separate-capital-before-affix-with-underscore.good.al`](separate-capital-before-affix-with-underscore.good.al).
 
 ## Anti Pattern
 
@@ -39,4 +39,4 @@ producing an unbroken run of capitals at the boundary (`NetworkDUNSSXE`, `Networ
 Detection signal: any declared object, field, or member name matching `[A-Z]<Affix>$` with no
 underscore before the project's registered affix.
 
-See sample: `separate-capital-before-affix-with-underscore.bad.al`.
+See sample: [`separate-capital-before-affix-with-underscore.bad.al`](separate-capital-before-affix-with-underscore.bad.al).
